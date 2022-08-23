@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  primehealth-final:
+    restart: unless-stopped
+    build: .
+    labels:
+      - "traefik.http.routers.primehealth-final.rule=Host(`primehealthconcept.com`)"
+      - "traefik.http.routers.primehealth-final.tls=true"
+      - "traefik.http.routers.primehealth-final.tls.certresolver=eragnaLE"
+networks:
+  default:
+    external:
+      name: traefik

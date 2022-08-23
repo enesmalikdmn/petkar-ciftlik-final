@@ -1,0 +1,30 @@
+name: Deploy Workflow
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      BASE_PATH: "$HOME/containers/"
+      REPO_URL: "git@github.com:${{ github.repository }}.git"
+    steps:
+      - name: Re-run docker-compose on remote
+        uses: appleboy/ssh-action@v0.1.4
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd ${{ env.BASE_PATH }}
+            mkdir -p ${{ github.repository }}
+            cd ${{ github.repository }}
+            git ls-remote ${{ env.REPO_URL }} -q 2> /dev/null && git fetch; git reset --hard HEAD || git clone ${{ env.REPO_URL }} .
+            git checkout ${{ github.ref_name }} 2> /dev/null
+            git pull origin ${{ github.ref_name }}
+            cp $HOME/envs/${{ github.repository}}/.env .env
+            docker-compose down
+            docker-compose up -d --build
