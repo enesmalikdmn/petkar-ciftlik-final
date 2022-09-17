@@ -60,7 +60,7 @@ const MainBanner = ({data}) => {
                                                 </div> */}
                                             </div>
                                         </div>
-                                        
+                                        // TODO: video buraya gelebilir
                                         {/* <div className="col-lg-3">
                                             <div
                                                 onClick={e => {e.preventDefault(); openModal()}}
