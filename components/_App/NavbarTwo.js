@@ -111,7 +111,7 @@ const NavbarTwo = () => {
                                                             <a onClick={toggleNavbar} className="nav-link">Home 8 (Dental Clinic)</a>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul>   
                                             </li>
 
                                             <li className="nav-item">

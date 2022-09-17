@@ -7,7 +7,7 @@ import { getPageWithName, getServices } from '../lib/api';
 import { useRouter } from 'next/router';
 
 import Subscribe from '../components/Common/Subscribe';
-import Footer from '../components/_App/Footer';
+import Footer from '../components/Custom/Footer';
 
 const bannerContent = {
     'en': {
@@ -36,6 +36,7 @@ const Contact = ({abouts,services, cosmeticServices}) => {
                 pageTitle={bannerContent[locale].pageTitle} 
                 homePageUrl="/" 
                 homePageText={bannerContent[locale].homePage}  
+                imgUrl="/img/logo.png"
                 activePageText={bannerContent[locale].activePage} 
                 imgClass="bg-1" 
             />  

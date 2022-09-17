@@ -8,8 +8,9 @@ const WeCareAboutYou = ({data}) => {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="emergency-content ptb-100">
-							<h2>{data.title}</h2>
-							<p dangerouslySetInnerHTML={{__html: data.content}}></p>
+							<p>
+							İklim koşullarına kolay uyum sağlama özellikleri sayesinde ülkemizin her bölgesinde rahatlıkla yetiştirilmeye uygundur. Mera gereksinimi diğer ırklardan daha az olması sebebiyle entansif( kapalı ağıl yetişriciliği) besiye çok uygundur
+							</p>
 
 							{/* <ul>
 								<li className="active">
@@ -33,9 +34,9 @@ const WeCareAboutYou = ({data}) => {
 				</div>
 			</div>
 
-			<div className="shape">
+			{/* <div className="shape">
 				<img src="/img/shape/emergency-shape.png" alt="Image" />
-			</div>
+			</div> */}
 		</div>
     )
 }

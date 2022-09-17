@@ -46,10 +46,10 @@ const MainBanner = ({data}) => {
                                         <div className="col-lg-9">
                                             <div className="slider-text one">
                                                 {/* <span className="top-title">Assessment Center &  Testing</span> */}
-                                                <h1>{r(data?.title)}</h1>
-                                                <p>
+                                                <h1>Petkar Ile De France Damızlık Çiftliği</h1>
+                                                {/* <p>
                                                     <div dangerouslySetInnerHTML={{__html: r(data?.content)}}></div>
-                                                </p>
+                                                </p> */}
             
                                                 {/* <div className="slider-btn">
                                                     <Link href="/appointment">
@@ -61,14 +61,14 @@ const MainBanner = ({data}) => {
                                             </div>
                                         </div>
                                         
-                                        <div className="col-lg-3">
+                                        {/* <div className="col-lg-3">
                                             <div
                                                 onClick={e => {e.preventDefault(); openModal()}}
                                                 className="video-btn popup-youtube"
                                             > 
                                                 <i className="flaticon-play-button-2"></i>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

@@ -60,7 +60,7 @@ Default Style
 $body-font-family :  'Lato', sans-serif;
 $heading-font-family : 'Roboto', sans-serif;
 
-$main-color: #f19d3d;
+$main-color: #e11e25;
 $body-color: #525252;
 $heading-color: #001430;
 $white-color: #ffffff;
@@ -231,7 +231,7 @@ textarea {
 	}
 
 	&:hover {
-		background-color: #0f9e9d;
+		background-color: #002f80;
 		color: $white-color;
 	}
 }
@@ -1616,7 +1616,7 @@ Appointment Area Style
 Emergency Area Style
 ======================================================*/
 .emergency-img {
-	background-image: url(/img/anasayfa-kalp.jpeg);
+	background-image: url(/img/homepage-petkar.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -4560,7 +4560,7 @@ Hero Slider Area Style
 			z-index: -1;
 		}
 		&.main-banner-bg {
-			background-image: url(/img/main-banner.jpeg);
+			background-image: url(/img/main-banner.jpg);
 			background-position: center 30%;
 		}
 		&.slider-item-bg-1 {

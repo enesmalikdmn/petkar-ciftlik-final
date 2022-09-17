@@ -39,6 +39,11 @@ const AboutUs = ({data}) => {
 				<div className="container">
 					<div className="row align-items-center">
 						<div className="col-lg-6">
+							<div className='home-1'>
+								<img className='home-image-1' src="/img/about-petkar.jpg" alt="" />
+							</div>
+						</div>
+						<div className="col-lg-6">
 							{/* <div className="social-area flex"> TODO: sosyal medya hesabı eklenecek
 								<div className='mr-5'>
 									<a href="https://www.facebook.com/" target="_blank">
@@ -75,9 +80,8 @@ const AboutUs = ({data}) => {
 								
 								 */}
 								
-								 <div dangerouslySetInnerHTML={{__html:data}}>
-
-								 </div>
+								 <div className='home-1'>
+								 İle de France Koyunu Dünyadaki en iyi etçi koyun ırkları arasında bulunur. Her türlü mera ve iklim koşullarında yetiştirilmeye elverişlidir. Ile de France cins özelliği olarak et kalitesi ve et lezzeti ile öne çıkmaktadır. Karkas randımanı %55 in üstüne çıkabilir ve karkası yapı olarak yağsızdır								 </div>
 
 								{/* <Link href="/about">
 								<a className="default-btn">
@@ -93,8 +97,8 @@ const AboutUs = ({data}) => {
 								</div> */}
 							</div>
 						</div>
-
-						<div className="col-lg-6">
+						
+						{/* <div className="col-lg-6">
 							<div className="about-img">
 								{display ? <OwlCarousel
 									className="about-img-wrap owl-carousel owl-theme"
@@ -112,7 +116,7 @@ const AboutUs = ({data}) => {
 									<img src="/img/about/about-shape-3.png" alt="Image" />
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

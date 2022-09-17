@@ -13,20 +13,20 @@ const Layout = ({ children }) => {
     return(
         <>
             <Head>
-                <title>Prime Health Concept - Health Services in Turkey</title>
+                <title>Petkar Ile De France Damızlık Çiftliği</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta 
                     name="description" 
-                    content="Prime Health Concept - Health Services in Turkey" 
+                    content="Petkar Ile De France Damızlık Çiftliği" 
                 />
                 <meta 
                     name="og:title" 
                     property="og:title" 
-                    content="Prime Health Concept - Health Services in Turkey"
+                    content="Petkar Ile De France Damızlık Çiftliği"
                 ></meta>
                 <meta 
                     name="twitter:card" 
-                    content="Prime Health Concept - Health Services in Turkey"
+                    content="Petkar Ile De France Damızlık Çiftliği"
                 ></meta>
                 <link rel="canonical" href="https://primehealthconcept.com"></link>
             </Head>

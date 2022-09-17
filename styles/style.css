@@ -69,7 +69,7 @@ a {
   display: inline-block;
   transition: all 0.5s;
   text-decoration: none;
-  color: #f19d3d;
+  color: #e11e25;
 }
 a:hover {
   text-decoration: none;
@@ -116,10 +116,26 @@ p:last-child {
 }
 
 img {
+
   max-width: 100%;
   height: auto;
 }
-
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+}
+.home-1 {
+  margin-top: 10rem;
+}
+.home-image-1 {
+  width: auto;
+}
+.footer-text {
+  margin-top: 5rem;
+  width: 65%;
+  color: white;
+  font-size: medium;
+}
 .form-control {
   height: 50px;
   color: #001430;
@@ -144,7 +160,7 @@ img {
   background-color: transparent;
   box-shadow: unset;
   outline: 0;
-  border: 1px solid #f19d3d;
+  border: 1px solid #e11e25;
 }
 
 .form-control:hover:focus, .form-control:focus {
@@ -207,12 +223,12 @@ textarea.form-control {
 
 .top-title {
   font-size: 15px;
-  color: #f19d3d;
+  color: #e11e25;
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
-  color: #f19d3d;
+  color: #e11e25;
 }
 
 .bg-color {
@@ -237,16 +253,16 @@ textarea.form-control {
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   display: inline-block;
 }
 .default-btn.active {
   margin-left: 30px;
   color: #ffffff;
-  background: #f19d3d;
+  background: #e11e25;
 }
 .default-btn:hover {
-  background-color: #0f9e9d;
+  background-color: #002f80;
   color: #ffffff;
 }
 
@@ -254,7 +270,7 @@ textarea.form-control {
 Read More Area Style*/
 .read-more {
   line-height: 1;
-  color: #f19d3d;
+  color: #e11e25;
   font-weight: 500;
   transition: all 0.5s;
   display: block;
@@ -266,10 +282,10 @@ Read More Area Style*/
   top: 2px;
 }
 .read-more:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .read-more:hover i {
-  color: #f19d3d;
+  color: #e11e25;
   -webkit-animation: rotation 0.5s linear infinite;
           animation: rotation 0.5s linear infinite;
 }
@@ -303,13 +319,13 @@ Header Area Style
   display: inline-block;
 }
 .header-area .top-header-area .header-content-left li a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .header-area .top-header-area .header-content-left li i {
   color: #ffffff;
   margin-right: 5px;
   font-size: 15px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
   height: 25px;
   line-height: 25px;
@@ -332,7 +348,7 @@ Header Area Style
   color: #ffffff;
   margin-right: 5px;
   font-size: 15px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   width: 25px;
   height: 25px;
@@ -385,14 +401,14 @@ Header Area Style
   padding-left: 15px;
 }
 .header-area .top-header-area .header-content-right li .option-item .search-overlay.search-popup .search-form .search-input:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .header-area .top-header-area .header-content-right li .option-item .search-overlay.search-popup .search-form .search-button {
   position: absolute;
   right: 0;
   top: 0;
   height: 50px;
-  background: #f19d3d;
+  background: #e11e25;
   border: none;
   width: 50px;
   outline: 0;
@@ -407,7 +423,7 @@ Header Area Style
   cursor: pointer;
   transition: all 0.5s;
   color: #ffffff;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
   height: 25px;
   font-size: 15px;
@@ -477,10 +493,10 @@ Nav Area Style
   transition: all 0.5s;
 }
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   background-color: #ffffff;
@@ -509,11 +525,11 @@ Nav Area Style
   transition: all 0.5s;
 }
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #f19d3d;
+  color: #e11e25;
   background-color: #f3f3f3;
 }
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #f19d3d;
+  color: #e11e25;
   background-color: #f3f3f3;
 }
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -552,10 +568,10 @@ Nav Area Style
   color: #ffffff;
 }
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a.active {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area .dropdown-toggle::after {
   display: none;
@@ -577,7 +593,7 @@ Nav Area Style
 }
 .nav-area .others-option .sidebar-menu i {
   font-size: 40px;
-  color: #f19d3d;
+  color: #e11e25;
   position: relative;
   top: -2px;
 }
@@ -585,10 +601,10 @@ Nav Area Style
   color: #001430;
 }
 .nav-area.four .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area.four .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area.four .navbar-area.is-sticky {
   position: fixed;
@@ -608,10 +624,10 @@ Nav Area Style
   color: #001430;
 }
 .nav-area.four .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area.four .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a.active {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area.five .navbar-area .main-nav {
   border-top: 1px dotted #b1b9ba;
@@ -622,10 +638,10 @@ Nav Area Style
   color: #001430;
 }
 .nav-area.five .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area.five .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area.five .navbar-area.is-sticky {
   position: fixed;
@@ -645,10 +661,10 @@ Nav Area Style
   color: #001430;
 }
 .nav-area.five .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .nav-area.five .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a.active {
-  color: #f19d3d;
+  color: #e11e25;
 }
 
 /* Navbar toggler */
@@ -729,12 +745,12 @@ Banner Area Style
 }
 .main-banner-area .banner-text span {
   font-size: 16px;
-  color: #f19d3d;
+  color: #e11e25;
   margin-bottom: 20px;
   display: inline-block;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
-  color: #f19d3d;
+  color: #e11e25;
 }
 .main-banner-area .banner-text h1 {
   font-size: 60px;
@@ -810,7 +826,7 @@ First Facility Area Style
   padding-left: 90px;
 }
 .first-facility-item i {
-  border: 1px dashed #f19d3d;
+  border: 1px dashed #e11e25;
   background-color: #ffffff;
   width: 70px;
   height: 70px;
@@ -819,7 +835,7 @@ First Facility Area Style
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  color: #f19d3d;
+  color: #e11e25;
   position: absolute;
   left: 0;
   top: 0;
@@ -836,7 +852,7 @@ First Facility Area Style
 Second Facility Area Style
 ======================================================*/
 .second-facility-item {
-  border: 1px dashed #f19d3d;
+  border: 1px dashed #e11e25;
   text-align: center;
   padding: 30px;
   position: relative;
@@ -944,11 +960,11 @@ About Area Style
   line-height: 30px;
   border-radius: 50%;
   text-align: center;
-  color: #f19d3d;
+  color: #e11e25;
   transition: all 0.5s;
 }
 .about-area .about-content ul li:hover i {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
 }
 .about-area .about-content .default-btn {
@@ -1018,8 +1034,8 @@ Services Area Style
   top: 50%;
   width: 100%;
   height: 10px;
-  background-color: #f19d3d;
-  box-shadow: 0 0 15px #f19d3d;
+  background-color: #e11e25;
+  box-shadow: 0 0 15px #e11e25;
   transition: all 0.5s;
   z-index: -1;
 }
@@ -1030,8 +1046,8 @@ Services Area Style
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #f19d3d;
-  box-shadow: 0 0 15px #f19d3d;
+  background-color: #e11e25;
+  box-shadow: 0 0 15px #e11e25;
   transition: all 0.5s;
   z-index: -1;
   transition: 1.5s;
@@ -1041,9 +1057,9 @@ Services Area Style
 }
 .single-services span {
   font-size: 35px;
-  color: #f19d3d;
+  color: #e11e25;
   display: inline-block;
-  border: 1px solid #f19d3d;
+  border: 1px solid #e11e25;
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -1115,7 +1131,7 @@ Doctors Area Style
   z-index: 1;
 }
 .single-doctor img {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   border-radius: 100% 0 100% 100%;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -1139,7 +1155,7 @@ Doctors Area Style
 }
 .single-doctor ul li i {
   color: #ffffff;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
   height: 25px;
   line-height: 25px;
@@ -1185,7 +1201,7 @@ Doctors Area Style
   height: 30px;
   line-height: 30px;
   color: #ffffff;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   border-radius: 50%;
   font-size: 20px;
   transition: all 0.5s;
@@ -1207,7 +1223,7 @@ Doctors Area Style
   height: 30px;
   line-height: 30px;
   color: #ffffff;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   border-radius: 50%;
   font-size: 20px;
   transition: all 0.5s;
@@ -1248,11 +1264,11 @@ Work Area Style
   margin: 0 5px;
 }
 .our-work-area .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
 }
 .our-work-area .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
 }
 .our-work-area .shape {
@@ -1287,13 +1303,13 @@ Work Area Style
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   border-radius: 50%;
   color: #ffffff;
   margin-right: 20px;
 }
 .single-work .work-content-wrap {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   opacity: 0.9;
   position: absolute;
   top: 100%;
@@ -1370,7 +1386,7 @@ Counter Area Style
 }
 .single-counter i {
   background-color: #f5f5f5;
-  color: #f19d3d;
+  color: #e11e25;
   font-size: 30px;
   line-height: 1;
   display: block;
@@ -1382,7 +1398,7 @@ Counter Area Style
   transition: all 0.5s;
 }
 .single-counter p {
-  color: #f19d3d;
+  color: #e11e25;
   line-height: 1;
   margin-bottom: 0;
   font-size: 17px;
@@ -1397,7 +1413,7 @@ Counter Area Style
   transform: translateY(-5px);
 }
 .single-counter:hover i {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   color: #ffffff;
 }
@@ -1490,7 +1506,7 @@ Appointment Area Style
   left: 20px;
   line-height: 1;
   font-size: 18px;
-  color: #f19d3d;
+  color: #e11e25;
 }
 .appointment-here-form .form-group .form-control {
   padding: 12px 50px;
@@ -1544,7 +1560,7 @@ Appointment Area Style
   cursor: pointer;
 }
 .table-condensed .prev:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .table-condensed .next {
   background-color: #f2f9fc;
@@ -1553,7 +1569,7 @@ Appointment Area Style
   cursor: pointer;
 }
 .table-condensed .next:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .table-condensed .day {
   transition: all 0.5s;
@@ -1563,14 +1579,14 @@ Appointment Area Style
   font-size: 14px;
 }
 .table-condensed .day:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 
 /*
 Emergency Area Style
 ======================================================*/
 .emergency-img {
-  background-image: url(/img/anasayfa-kalp.jpeg);
+  background-image: url(/img/homepage-petkar.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1624,7 +1640,7 @@ Emergency Area Style
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   border-radius: 4px;
   color: #ffffff;
 }
@@ -1640,7 +1656,7 @@ Emergency Area Style
   color: #001430;
 }
 .emergency-content ul .active i {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 
 /*
@@ -1657,7 +1673,7 @@ Client Area Style
   position: absolute;
   top: -30px;
   left: 30px;
-  border: 1px solid #f19d3d;
+  border: 1px solid #e11e25;
   border-radius: 4px;
 }
 .single-client p {
@@ -1673,7 +1689,7 @@ Client Area Style
   display: inline-block;
 }
 .single-client ul li i {
-  color: #f19d3d;
+  color: #e11e25;
   margin-right: 3px;
 }
 .single-client h3 {
@@ -1731,7 +1747,7 @@ Blog Area Style
 .single-blog span {
   position: absolute;
   left: 0;
-  background: #f19d3d;
+  background: #e11e25;
   padding: 5px 15px;
   color: #ffffff;
 }
@@ -1750,7 +1766,7 @@ Blog Area Style
   top: 0;
   width: 50%;
   height: 100%;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   transition: all 0.5s;
   z-index: -1;
 }
@@ -1761,7 +1777,7 @@ Blog Area Style
   bottom: 0;
   width: 50%;
   height: 100%;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   transition: all 0.5s;
   z-index: -1;
 }
@@ -1790,7 +1806,7 @@ Blog Area Style
   color: #78a9e3;
 }
 .single-blog .blog-content ul li a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .single-blog .blog-content h3 {
   margin-bottom: 15px;
@@ -1930,7 +1946,7 @@ Footer Top Area Style
   font-size: 22px;
   margin-bottom: 30px;
   display: inline-block;
-  color: #f19d3d;
+  color: #e11e25;
 }
 .single-widget p {
   margin-bottom: 0;
@@ -1986,14 +2002,14 @@ Footer Top Area Style
   text-align: center;
 }
 .single-widget .social-area ul li a i {
-  color: #f19d3d;
+  color: #e11e25;
   transition: all 0.5s;
   margin-right: 0;
   font-size: 18px;
 }
 .single-widget .social-area ul li a:hover {
-  border-color: #f19d3d;
-  background-color: #f19d3d;
+  border-color: #e11e25;
+  background-color: #e11e25;
   transform: translateY(-2px);
 }
 .single-widget .social-area ul li a:hover i {
@@ -2007,7 +2023,7 @@ Footer Top Area Style
   position: absolute;
   top: 4px;
   left: 0;
-  color: #f19d3d;
+  color: #e11e25;
   font-size: 20px;
 }
 .single-widget.contact ul li a span {
@@ -2021,7 +2037,7 @@ Footer Top Area Style
   position: absolute;
   left: 0;
   top: 4px;
-  color: #f19d3d;
+  color: #e11e25;
   font-size: 20px;
 }
 .single-widget.contact ul li span {
@@ -2031,7 +2047,7 @@ Footer Top Area Style
 .single-widget.open-time li {
   padding-bottom: 15px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #f19d3d;
+  border-bottom: 1px solid #e11e25;
 }
 .single-widget.open-time li .right {
   float: right;
@@ -2057,7 +2073,7 @@ Footer Bottom Area Style
   color: #ffffff;
 }
 .footer-bottom-area .copy-right p a {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .footer-bottom-area .copy-right p a:hover {
   text-decoration: underline;
@@ -2098,12 +2114,12 @@ Banner Area Style
 }
 .main-banner-area-two .banner-text span {
   font-size: 16px;
-  color: #f19d3d;
+  color: #e11e25;
   margin-bottom: 20px;
   display: inline-block;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
-  color: #f19d3d;
+  color: #e11e25;
 }
 .main-banner-area-two .banner-text h1 {
   font-size: 60px;
@@ -2151,7 +2167,7 @@ Second Facility Area Style
 }
 .second-facility-area.two .second-facility-item img {
   margin-bottom: 20px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   padding: 15px;
   -webkit-animation: border-transform 10s linear infinite alternate forwards;
           animation: border-transform 10s linear infinite alternate forwards;
@@ -2275,7 +2291,7 @@ About Area Style
   font-size: 20px;
 }
 .about-area.two .about-content ul li:hover i {
-  color: #f19d3d;
+  color: #e11e25;
 }
 
 /*
@@ -2313,7 +2329,7 @@ Symptoms Area Style
   right: 0;
   width: 0%;
   height: 100%;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   transition: all 0.5s;
 }
 .single-symptoms h3 {
@@ -2324,7 +2340,7 @@ Symptoms Area Style
   transition: all 0.5s;
 }
 .single-symptoms h3 i {
-  color: #f19d3d;
+  color: #e11e25;
   position: absolute;
   top: 0;
   left: 0;
@@ -2461,7 +2477,7 @@ Prevention Area Style
   font-size: 35px;
   color: #ffffff;
   display: inline-block;
-  border: 1px solid #f19d3d;
+  border: 1px solid #e11e25;
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -2480,7 +2496,7 @@ Prevention Area Style
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   margin: 5px;
   border-radius: 50%;
   z-index: -1;
@@ -2505,7 +2521,7 @@ Doctors Two Area Style
 }
 .single-doctors-two .doctor-img img {
   border-radius: 4px;
-  border: 5px solid #f19d3d;
+  border: 5px solid #e11e25;
 }
 .single-doctors-two .doctor-img::before {
   content: "";
@@ -2514,7 +2530,7 @@ Doctors Two Area Style
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   opacity: 0.8;
   transform: scaleX(0);
   transition: all 0.5s;
@@ -2548,7 +2564,7 @@ Doctors Two Area Style
   padding: 25px;
 }
 .single-doctors-two .doctors-content span {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .single-doctors-two:hover {
   transform: translateY(-5px);
@@ -2764,7 +2780,7 @@ Page Title Area Style
   position: absolute;
   top: 10px;
   right: 9px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 10px;
   height: 10px;
   -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
@@ -2774,10 +2790,10 @@ Page Title Area Style
   color: #ffffff;
 }
 .page-title-area .page-title-content ul li a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .page-title-area .page-title-content ul .active {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .page-title-area .shape-1 {
   position: absolute;
@@ -2879,7 +2895,7 @@ Sign In & Log In  Area Style
   margin: 0 auto 30px;
 }
 .user-area-all-style .contact-form-action form .col-lg-4:nth-child(3) .default-btn {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   float: right;
 }
 .user-area-all-style .contact-form-action form .reset-btn {
@@ -2899,7 +2915,7 @@ Sign In & Log In  Area Style
   top: 6px;
 }
 .user-area-all-style .contact-form-action form .form-condition .agree-label a {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .user-area-all-style .contact-form-action form .form-condition .agree-label label {
   margin: 0;
@@ -2913,13 +2929,13 @@ Sign In & Log In  Area Style
   font-weight: 600;
 }
 .user-area-all-style .contact-form-action .account-desc a {
-  color: #f19d3d;
+  color: #e11e25;
   margin-left: 10px;
   font-weight: 600;
 }
 .user-area-all-style .contact-form-action .forget {
   float: right;
-  color: #f19d3d;
+  color: #e11e25;
   font-weight: 600;
 }
 .user-area-all-style .contact-form-action .now-register {
@@ -2928,10 +2944,10 @@ Sign In & Log In  Area Style
   margin-bottom: 30px;
 }
 .user-area-all-style .contact-form-action .now-register a {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .user-area-all-style .contact-form-action .now-log-in {
-  color: #f19d3d;
+  color: #e11e25;
   font-weight: 600;
 }
 .user-area-all-style .contact-form-action .now-log-in .font-q {
@@ -3080,7 +3096,7 @@ Coming Soon Area Style
   color: #ffffff;
 }
 .coming-soon-area .coming-soon-content .newsletter-form .input-newsletter:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .coming-soon-area .coming-soon-content .newsletter-form button {
   position: absolute;
@@ -3104,7 +3120,7 @@ Coming Soon Area Style
 }
 .coming-soon-area .coming-soon-content .newsletter-form button:hover {
   color: #ffffff;
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .coming-soon-area .coming-soon-content .newsletter-form #validator-newsletter {
   color: #ffffff;
@@ -3213,13 +3229,13 @@ Blog Details Area Style
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li {
   position: relative;
   display: inline-block;
-  color: #f19d3d;
+  color: #e11e25;
   margin-right: 25px;
   font-size: 14px;
 }
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li span {
   display: inline-block;
-  color: #f19d3d;
+  color: #e11e25;
   font-weight: 500;
 }
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li a {
@@ -3228,10 +3244,10 @@ Blog Details Area Style
   font-size: 13px;
 }
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li i {
-  color: #f19d3d;
+  color: #e11e25;
   margin-right: 2px;
 }
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li::before {
@@ -3241,7 +3257,7 @@ Blog Details Area Style
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #f19d3d;
+  background: #e11e25;
 }
 .blog-details-area .blog-details-desc .article-content .entry-meta ul li:last-child {
   margin-right: 0;
@@ -3284,7 +3300,7 @@ Blog Details Area Style
 }
 .blog-details-area .blog-details-desc .article-footer .article-tags span {
   display: inline-block;
-  color: #f19d3d;
+  color: #e11e25;
   font-size: 20px;
   margin-right: 5px;
   position: relative;
@@ -3296,7 +3312,7 @@ Blog Details Area Style
   font-weight: 600;
 }
 .blog-details-area .blog-details-desc .article-footer .article-tags a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .blog-details-area .blog-details-desc .article-footer .article-share {
   flex: 0 0 50%;
@@ -3328,7 +3344,7 @@ Blog Details Area Style
   height: 32px;
   line-height: 33px;
   border-radius: 50%;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   text-align: center;
   font-size: 14px;
 }
@@ -3362,7 +3378,7 @@ Blog Details Area Style
   display: none;
 }
 .blog-details-area blockquote::before {
-  color: #f19d3d;
+  color: #e11e25;
   content: "\ed67";
   position: absolute;
   left: 50px;
@@ -3380,7 +3396,7 @@ Blog Details Area Style
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -3421,7 +3437,7 @@ Blog Details Area Style
   color: #001430;
 }
 .blog-details-area .post-navigation .navigation-links div a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .blog-details-area .comments-area {
   padding: 25px;
@@ -3441,7 +3457,7 @@ Blog Details Area Style
   width: 3px;
   left: -25px;
   position: absolute;
-  background: #f19d3d;
+  background: #e11e25;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -3487,8 +3503,8 @@ Blog Details Area Style
 }
 .blog-details-area .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #f19d3d;
-  border-color: #f19d3d;
+  background-color: #e11e25;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-meta {
   margin-bottom: 0.8em;
@@ -3526,7 +3542,7 @@ Blog Details Area Style
   font-size: 11px;
 }
 .blog-details-area .comments-area .comment-metadata a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .blog-details-area .comments-area .comment-content p {
   font-size: 14px;
@@ -3545,7 +3561,7 @@ Blog Details Area Style
   width: 3px;
   left: -25px;
   position: absolute;
-  background: #f19d3d;
+  background: #e11e25;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -3576,7 +3592,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=datetime-local]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=week] {
   display: block;
@@ -3588,7 +3604,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=week]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=month] {
   display: block;
@@ -3600,7 +3616,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=month]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=text] {
   display: block;
@@ -3612,7 +3628,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=text]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=email] {
   display: block;
@@ -3624,7 +3640,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=email]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=url] {
   display: block;
@@ -3636,7 +3652,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=url]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=password] {
   display: block;
@@ -3648,7 +3664,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=password]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=search] {
   display: block;
@@ -3660,7 +3676,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=search]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=tel] {
   display: block;
@@ -3672,7 +3688,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=tel]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond input[type=number] {
   display: block;
@@ -3684,7 +3700,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond input[type=number]:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond textarea {
   display: block;
@@ -3696,7 +3712,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .comments-area .comment-respond textarea:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .comments-area .comment-respond .comment-form-author {
   float: left;
@@ -3738,7 +3754,7 @@ Blog Details Area Style
   width: 100%;
 }
 .blog-details-area .comments-area .comment-respond .form-submit input {
-  background: #f19d3d;
+  background: #e11e25;
   border: none;
   color: #ffffff;
   padding: 14px 30px 12px;
@@ -3757,7 +3773,7 @@ Blog Details Area Style
 }
 .blog-details-area .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .blog-details-area .widget-area .widget {
   margin-top: 35px;
@@ -3787,7 +3803,7 @@ Blog Details Area Style
   left: 0;
   width: 2px;
   height: 100%;
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .blog-details-area .widget-area .widget_search form {
   position: relative;
@@ -3810,7 +3826,7 @@ Blog Details Area Style
   transition: 0.5s;
 }
 .blog-details-area .widget-area .widget_search form .search-field:focus {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .widget-area .widget_search form button {
   position: absolute;
@@ -3821,7 +3837,7 @@ Blog Details Area Style
   width: 50px;
   border: none;
   color: #ffffff;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -3896,7 +3912,7 @@ Blog Details Area Style
   color: #474c40;
 }
 .blog-details-area .widget-area .widget-peru-posts-thumb .item .info .title a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .blog-details-area .widget-area .widget_recent_entries ul {
   padding: 0;
@@ -3916,7 +3932,7 @@ Blog Details Area Style
   margin-bottom: 0;
 }
 .blog-details-area .widget-area .widget_recent_entries ul li::before {
-  background: #f19d3d;
+  background: #e11e25;
   position: absolute;
   height: 7px;
   width: 7px;
@@ -3950,7 +3966,7 @@ Blog Details Area Style
   border-bottom: none;
 }
 .blog-details-area .widget-area .widget_categories ul li::before {
-  background: #f19d3d;
+  background: #e11e25;
   position: absolute;
   height: 10px;
   width: 10px;
@@ -3971,7 +3987,7 @@ Blog Details Area Style
   font-size: 13px;
 }
 .blog-details-area .widget-area .widget_categories ul li a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .blog-details-area .widget-area .widget_categories ul li .post-count {
   float: right;
@@ -3995,13 +4011,13 @@ Blog Details Area Style
   color: #525252;
 }
 .blog-details-area .widget-area .widget_meta ul li a:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .blog-details-area .widget-area .widget_meta ul li:last-child {
   margin-bottom: 0;
 }
 .blog-details-area .widget-area .widget_meta ul li::before {
-  background: #f19d3d;
+  background: #e11e25;
   position: absolute;
   height: 10px;
   width: 10px;
@@ -4026,13 +4042,13 @@ Blog Details Area Style
   text-transform: capitalize;
 }
 .blog-details-area .widget-area .tagcloud a:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
 }
 .blog-details-area .widget-area .tagcloud a:focus {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .blog-details-area .widget-area .widget_services_list ul {
   padding-left: 0;
@@ -4072,7 +4088,7 @@ Blog Details Area Style
   transform: translateY(-50%);
 }
 .blog-details-area .widget-area .widget_services_list ul li a:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4082,7 +4098,7 @@ Blog Details Area Style
   width: 5px;
 }
 .blog-details-area .widget-area .widget_services_list ul li a.active {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4132,7 +4148,7 @@ Blog Details Area Style
   transform: translateY(-50%);
 }
 .blog-details-area .widget-area .widget_download ul li a:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4142,7 +4158,7 @@ Blog Details Area Style
   width: 5px;
 }
 .blog-details-area .widget-area .widget_download ul li a.active {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -4175,7 +4191,7 @@ Contact Info Area Style
   width: 60px;
   height: 60px;
   line-height: 60px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   display: inline-block;
   border-radius: 50%;
@@ -4232,9 +4248,9 @@ Doctors Details Area Style
   margin-bottom: 30px;
 }
 .doctors-sidebar .doctors-img img {
-  border-top: 3px solid #f19d3d;
-  border-left: 3px solid #f19d3d;
-  border-right: 3px solid #f19d3d;
+  border-top: 3px solid #e11e25;
+  border-left: 3px solid #e11e25;
+  border-right: 3px solid #e11e25;
 }
 .doctors-sidebar .doctors-img ul {
   line-height: 1;
@@ -4251,7 +4267,7 @@ Doctors Details Area Style
   width: 30px;
   height: 30px;
   line-height: 38px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   border-radius: 4px;
   text-align: center;
@@ -4321,7 +4337,7 @@ Doctors Details Area Style
 }
 .doctors-detailss .doctors-history span {
   font-weight: 600;
-  color: #f19d3d;
+  color: #e11e25;
   font-size: 20px;
   display: block;
   margin-bottom: 15px;
@@ -4382,7 +4398,7 @@ Services Details Area Style
   width: 30px;
   height: 30px;
   line-height: 38px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   border-radius: 50%;
   text-align: center;
@@ -4416,11 +4432,11 @@ Services Details Area Style
   margin: 0 5px;
 }
 .services-details-area .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
 }
 .services-details-area .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
 }
 
@@ -4451,7 +4467,7 @@ Hero Slider Area Style
   z-index: -1;
 }
 .hero-slider-area .slider-item.main-banner-bg {
-  background-image: url(/img/main-banner.jpeg);
+  background-image: url(/img/main-banner.jpg);
   background-position: center 30%;
 }
 .hero-slider-area .slider-item.slider-item-bg-1 {
@@ -4547,11 +4563,11 @@ Hero Slider Area Style
   border-radius: 4px !important;
 }
 .hero-slider-area .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   height: 40px;
 }
 .hero-slider-area .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 
 /*
@@ -4594,7 +4610,7 @@ About Area Style
   left: -15px;
   width: 700px;
   height: 700px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   border-radius: 50%;
   z-index: -1;
 }
@@ -4677,7 +4693,7 @@ Work Area Style
   left: 0;
   width: 30px;
   height: 30px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .how-its-work-content .content-wrap::after {
   content: "";
@@ -4767,7 +4783,7 @@ Emergency Area Style
   left: 0;
   width: 15px;
   height: 15px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   border-radius: 50%;
 }
 
@@ -4819,12 +4835,12 @@ Banner Area Style
 }
 .main-banner-area-four .banner-text span {
   font-size: 16px;
-  color: #f19d3d;
+  color: #e11e25;
   margin-bottom: 20px;
   display: inline-block;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
-  color: #f19d3d;
+  color: #e11e25;
 }
 .main-banner-area-four .banner-text h1 {
   font-size: 60px;
@@ -4916,7 +4932,7 @@ Doctors Area Four Style
   line-height: 30px;
   border-radius: 50%;
   text-align: center;
-  color: #f19d3d;
+  color: #e11e25;
   transition: all 0.5s;
 }
 .ours-doctors-area .doctors-img {
@@ -5029,7 +5045,7 @@ Doctor vaccination Area Style
 .doctor-vaccination-table table tbody tr td span.time {
   display: inline-block;
   background-color: #ffffff;
-  color: #f19d3d;
+  color: #e11e25;
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -5039,8 +5055,8 @@ Doctor vaccination Area Style
   font-size: 16px;
 }
 .doctor-vaccination-table table tbody tr td:hover {
-  background-color: #f19d3d;
-  border-color: #f19d3d;
+  background-color: #e11e25;
+  border-color: #e11e25;
 }
 .doctor-vaccination-table table tbody tr td:hover h3 {
   color: #ffffff;
@@ -5050,7 +5066,7 @@ Doctor vaccination Area Style
 }
 .doctor-vaccination-table table tbody tr td:hover span.time {
   background-color: #ffffff;
-  color: #f19d3d;
+  color: #e11e25;
 }
 .doctor-vaccination-table table tbody tr:last-child td {
   border-bottom: none;
@@ -5158,7 +5174,7 @@ Professionals Area Style
   line-height: 40px;
   border-radius: 50%;
   background-color: #c3fcf2;
-  color: #f19d3d;
+  color: #e11e25;
   font-size: 25px;
 }
 .single-professionals h3 {
@@ -5215,7 +5231,7 @@ Professionals Area Style
 .single-professionals .location span i {
   position: relative;
   top: 1px;
-  color: #f19d3d;
+  color: #e11e25;
   left: -3px;
 }
 .single-professionals:hover {
@@ -5278,10 +5294,10 @@ Search Area Style
   color: #001430;
 }
 .search-area .top-search-from .searchs-wraps .search-btn:hover {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .search-area .top-search-from .find-btn {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 100%;
   font-size: 40px;
   height: 50px;
@@ -5290,14 +5306,14 @@ Search Area Style
   color: #ffffff;
 }
 .search-area .join-our-team {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   text-align: center;
   border-radius: 4px;
   padding: 51px 30px;
 }
 .search-area .join-our-team .default-btn {
   background-color: #ffffff;
-  color: #f19d3d;
+  color: #e11e25;
   margin-bottom: -7px;
 }
 .search-area .join-our-team span {
@@ -5369,11 +5385,11 @@ Banner Area Six Style
   transition: all 0.5s;
 }
 .main-banner-six .banner-image-slider .owl-dots .owl-dot.active span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   width: 25px;
 }
 .main-banner-six .banner-image-slider .owl-dots .owl-dot:hover span {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .main-banner-six .shape {
   position: absolute;
@@ -5415,7 +5431,7 @@ Facility Area Six Style
   width: 100%;
   height: 2px;
   left: 0;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   transition: all 0.5s;
   z-index: -1;
 }
@@ -5446,7 +5462,7 @@ Events Area Six Style
 }
 .single-events .event-img span {
   display: inline-block;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   padding: 5px 10px;
   position: absolute;
@@ -5475,7 +5491,7 @@ Events Area Six Style
   top: -8px;
   left: -8px;
   width: 80%;
-  border: 8px solid #f19d3d;
+  border: 8px solid #e11e25;
   border-radius: 50px;
 }
 .single-events .event-content ul {
@@ -5522,7 +5538,7 @@ Best Services Area Six Style
   position: absolute;
   top: -15px;
   right: 30px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   width: 35px;
   height: 35px;
@@ -5539,7 +5555,7 @@ Best Services Area Six Style
 Doctors Area Six Style
 ======================================================*/
 .doctors-area-two.six .single-doctors-two .doctor-img {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .doctors-area-two.six .single-doctors-two .doctor-img::before {
   display: none;
@@ -5655,7 +5671,7 @@ Hero Slider Area Seven Style
   border: 1px solid #ffffff;
 }
 .hero-slider-area-seven .owl-prev i:hover {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .hero-slider-area-seven .owl-next i {
   background-color: transparent !important;
@@ -5663,7 +5679,7 @@ Hero Slider Area Seven Style
   border: 1px solid #ffffff;
 }
 .hero-slider-area-seven .owl-next i:hover {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .hero-slider-area-seven .owl-item.active .slider-item::before {
   -webkit-animation: 3s 0.3s fadeInUp both;
@@ -5728,7 +5744,7 @@ About Area Seven Style
   top: 3px;
   left: 0;
   font-size: 18px;
-  color: #f19d3d;
+  color: #e11e25;
   background-color: #ffffff;
   display: inline-block;
   width: 20px;
@@ -5760,10 +5776,10 @@ Services Area Seven Style
   color: #525252;
 }
 .services-area-seven .single-services:hover .read-more {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .services-area-seven .single-services:hover .read-more i {
-  color: #f19d3d;
+  color: #e11e25;
 }
 .services-area-seven .single-services:hover::before {
   display: none;
@@ -5779,7 +5795,7 @@ Doctors Area Seven Style
   position: relative;
 }
 .doctors-area-two.seven .single-doctors-two {
-  border: 5px solid #f19d3d;
+  border: 5px solid #e11e25;
   padding: 10px;
   border-radius: 4px;
 }
@@ -5808,7 +5824,7 @@ Doctors Area Seven Style
   line-height: 31px;
 }
 .doctors-area-two.seven .single-doctors-two .doctors-content .doctors-link li a:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
 }
 
@@ -5888,7 +5904,7 @@ Hero Slider Area Eight Style
   border: 1px solid #ffffff;
 }
 .hero-slider-area-eight .owl-theme .owl-nav .owl-prev i:hover {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .hero-slider-area-eight .owl-theme .owl-nav .owl-next i {
   background-color: transparent !important;
@@ -5896,7 +5912,7 @@ Hero Slider Area Eight Style
   border: 1px solid #ffffff;
 }
 .hero-slider-area-eight .owl-theme .owl-nav .owl-next i:hover {
-  border-color: #f19d3d;
+  border-color: #e11e25;
 }
 .hero-slider-area-eight .owl-theme .owl-nav .owl-item.active .slider-text {
   background-color: rgba(0, 55, 130, 0.8);
@@ -5916,7 +5932,7 @@ Hero Slider Area Eight Style
   transform: translateY(-10px);
 }
 .hero-slider-area-eight .owl-next i {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   width: 40px;
   height: 40px;
@@ -5927,7 +5943,7 @@ Hero Slider Area Eight Style
   border-radius: 4px;
 }
 .hero-slider-area-eight .owl-next i:hover {
-  background-color: #f19d3d !important;
+  background-color: #e11e25 !important;
 }
 .hero-slider-area-eight .owl-prev {
   padding: 0 !important;
@@ -5952,7 +5968,7 @@ Hero Slider Area Eight Style
   border-radius: 4px;
 }
 .hero-slider-area-eight .owl-prev i:hover {
-  background-color: #f19d3d !important;
+  background-color: #e11e25 !important;
 }
 .hero-slider-area-eight:hover .owl-prev {
   opacity: 1;
@@ -5991,7 +6007,7 @@ Facility Area Eight Style
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
   text-align: center;
   border-radius: 50%;
@@ -6041,7 +6057,7 @@ Pricing Area Eight Style
   transition: all 0.5s;
 }
 .single-pricing h3 {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   padding: 15px 10px;
   margin-bottom: 0;
   text-transform: capitalize;
@@ -6226,7 +6242,7 @@ Go Top Style*/
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -6258,7 +6274,7 @@ Go Top Style*/
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #f19d3d;
+  background-color: #e11e25;
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
@@ -6308,11 +6324,11 @@ Video wave Style*/
   line-height: 69px;
   text-align: center;
   border-radius: 50%;
-  color: #f19d3d;
+  color: #e11e25;
   position: relative;
   top: 3px;
   z-index: 1;
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .video-btn i {
   font-size: 20px;
@@ -6337,7 +6353,7 @@ Video wave Style*/
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .video-btn::before {
   -webkit-animation: ripple 1.6s ease-out infinite;
@@ -6348,7 +6364,7 @@ Video wave Style*/
           animation: ripple 1.6s ease-out infinite;
 }
 .video-btn:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
 }
 .video-btn:hover i {
   color: #ffffff;
@@ -6417,12 +6433,12 @@ Nice select Area Style*/
 }
 
 .nice-select .option:hover {
-  background-color: #f19d3d;
+  background-color: #e11e25;
   color: #ffffff;
 }
 .nice-select .option.selected.focus {
   background-color: #001430;
-  color: #f19d3d;
+  color: #e11e25;
 }
 
 /*
@@ -6437,7 +6453,7 @@ Page-navigation Area Style*/
   margin: 0;
 }
 .page-navigation-area .page-link {
-  color: #f19d3d;
+  color: #e11e25;
   background-color: #ffffff;
   box-shadow: 0 0 15px #d0d0d0;
   width: 40px;
@@ -6453,8 +6469,8 @@ Page-navigation Area Style*/
 }
 .page-navigation-area .page-link:hover {
   color: #ffffff;
-  background-color: #f19d3d;
-  border: 1px solid #f19d3d;
+  background-color: #e11e25;
+  border: 1px solid #e11e25;
 }
 .page-navigation-area .page-link:focus {
   z-index: 2;
@@ -6476,8 +6492,8 @@ Page-navigation Area Style*/
 .page-navigation-area .page-item.active .page-link {
   z-index: 1;
   color: #ffffff;
-  background-color: #f19d3d;
-  border-color: #f19d3d;
+  background-color: #e11e25;
+  border-color: #e11e25;
 }
 
 .invalid-feedback {

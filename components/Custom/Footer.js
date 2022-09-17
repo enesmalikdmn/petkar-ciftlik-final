@@ -83,12 +83,12 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
         <>
             <footer className="footer-top-area f-bg pt-100 pb-70">
                 <div className="container">
-                    <div className="row">
+                    <div className='row' style={{display: 'flex'}}>
                         <div className="col-lg-4 col-md-6">
                             <div className="single-widget">
                                 <Link href="/">
                                     <a>
-                                        <img src="/brand/logo-white-sm.png" alt="Image" />
+                                        <img src="/img/logo.png" alt="Image" />
                                     </a>
                                 </Link>
 
@@ -99,14 +99,14 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
                                             <a href={ContactInfo.phoneHref}>
                                                 <i className="bx bx-phone-call"></i>
                                                 <span>{ContactContent[locale].callUs}:</span>
-                                                {ContactInfo.phone}
+                                                tel no
                                             </a>
                                         </li>
                                         <li>
                                             <a href={ContactInfo.emailHref}>
                                                 <i className="bx bx-envelope"></i>
                                                 <span>{ContactContent[locale].email}:</span>
-                                                {ContactInfo.email}
+                                                info@petkariledefrance.com
                                             </a>
                                         </li>
                                         <li>
@@ -142,30 +142,23 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
                                 </div>
                             </div>
                         </div>
+                        {/* <div className='flex'>
+                        Petkar Çiftliği olarak 2013 yılında faaliyete geçmiş bulunmaktayız. Bölgesinde öncü damızlık yetiştiricisi olma hedefiyle yola çıkan Petkar çiftliği, bu hedefini gerçekleştirmek için gerekli olabilecek kapalı ağıl alanları( 3.000 m2), kuzu büyütme ünitesi, sılaj ve yem depoları, idari binalar, elektrik ve su arıtma sistemleri gibi küçükbaş hayvan yetiştiriciliği için Avrupa standartlarında ve eksiksiz bir donanıma sahiptir.
+                        </div> */}
 
 
-                        <div className="col-lg-2 col-md-4">
-                            <div className="single-widget">
-                                <h3>
-                                    {navbarContent[locale].about}
-                                </h3>
-                                <ul>
-                                    {
-                                        abouts.map((s, i) => (
-                                            <li key={i}>
-                                                <Link href={`/about-us/${s.slug}/`} activeClassName="active">
-                                                    <a>
-                                                        {s.title}
-                                                    </a>
-                                                </Link>
-                                            </li>
-                                        ))
-                                    }
+                        <div className="footer-text col-lg-2 col-md-4">
+                        Petkar Çiftliği olarak 2013 yılında faaliyete geçmiş bulunmaktayız. Bölgesinde öncü damızlık yetiştiricisi olma hedefiyle yola çıkan Petkar çiftliği, bu hedefini gerçekleştirmek için gerekli olabilecek kapalı ağıl alanları( 3.000 m2), kuzu büyütme ünitesi, sılaj ve yem depoları, idari binalar, elektrik ve su arıtma sistemleri gibi küçükbaş hayvan yetiştiriciliği için Avrupa standartlarında ve eksiksiz bir donanıma sahiptir.
 
-                                </ul>
-                            </div>
+                        </div>
+                            {/* <div className="single-widget">
+                                <Link href="/">
+                                <p>Hakkımzda</p>
+                                    
+                                </Link>
+                            </div> */}
 
-                            <div className='single-widget'>
+                            {/* <div className='single-widget'>
                                 <h3>
                                     {navbarContent[locale].overview}
                                 </h3>
@@ -202,9 +195,9 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
                                     </li>
                                 </ul>
 
-                            </div>
-                        </div>
-                        <div className="col-lg-2 col-md-4">
+                            </div> */}
+                        {/* </div> */}
+                        {/* <div className="col-lg-2 col-md-4">
                             <div className="single-widget">
                                 <h3>
                                     {navbarContent[locale].services}
@@ -224,9 +217,9 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
 
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="col-lg-2 col-md-4">
+                        {/* <div className="col-lg-2 col-md-4">
                             <div className="single-widget">
                                 <h3>
                                     {navbarContent[locale].cosmetic}
@@ -246,10 +239,10 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
 
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
 
-                        <div className="col-lg-2 col-md-4">
+                        {/* <div className="col-lg-2 col-md-4">
                             <div className="single-widget">
                                 <h3>
                                     {navbarContent[locale].certificates}
@@ -269,7 +262,7 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
 
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
 
 
@@ -306,7 +299,7 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
             <div className="footer-bottom-area">
                 <div className="container">
                     <div className="copy-right">
-                        <p>Copyright &copy; {currentYear} Prime Health Concept</p>
+                        <p>Copyright &copy; {currentYear} Petkar Ile De France Damızlık Çiftliği</p>
                     </div>
                 </div>
             </div>

@@ -30,7 +30,7 @@ const navbarContent = {
     },
     'tr': {
         home: 'Ana Sayfa',
-        about: 'Hakkımızda',
+        about: 'benefits-of-choosing-u',
         benefits: 'Neden Biz?',
         services: 'Hizmetler & Ücretler',
         blog: 'Blog',

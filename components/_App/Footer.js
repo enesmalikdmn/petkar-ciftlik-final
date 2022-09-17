@@ -79,7 +79,7 @@ const Footer = () => {
                             <div className="single-widget">
                                 <Link href="/">
                                     <a>
-                                        <img src="/brand/logo-white-sm.png" alt="Image" />
+                                        <img src="/img/logo.png" alt="Image" />
                                     </a>
                                 </Link>
 
@@ -227,7 +227,7 @@ const Footer = () => {
             <div className="footer-bottom-area">
                 <div className="container">
                     <div className="copy-right">
-                        <p>Copyright &copy; {currentYear} Prime Health Concept</p>
+                    <p>Copyright &copy; {currentYear} Petkar Ile De France Damızlık Çiftliği</p>
                     </div>
                 </div>
             </div>

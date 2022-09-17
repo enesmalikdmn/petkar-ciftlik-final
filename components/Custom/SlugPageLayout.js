@@ -25,51 +25,25 @@ const SlugPageLayout = ({ service, abouts, services, cosmeticServices, locale })
             <Navbar services={services} cosmeticServices={cosmeticServices} abouts={abouts} />
 
             <PageBanner
-                pageTitle={service?.title}
                 homePageUrl="/"
                 homePageText="Home"
-                activePageText={service?.title}
-                imgUrl="/brand/logo.png"
+                activePageText="Hakkımzıda"
+                imgUrl="/img/logo.png"
                 imgClass="bg-1"
-                postHeader={service.postHeader}
+                postHeader="{service.postHeader}"
             />
 
             <div className="services-details-area">
                 <div className="container">
-                    {
-                        firstContentText.innerText.trim().length > 0 &&
-                        <div className='row'>
-                            <div dangerouslySetInnerHTML={{ __html: contents.length > 0 ? contents[0] : '' }} className='offset-lg-3 col-lg-6 service-content'></div>
-                        </div>
-                    }
-                    {
-                        service?.sections?.length > 0 &&
-                        <div className="row justify-content-center">
-                            {
-                                /* 
-                                    <div className="col-lg-6">
-                                    <div className="services-img">
-                                            <img src={service?.image || "/img/service-details/service-details1.jpg"} alt={service?.title} />
-                                            </div>
-                                    </div> 
-                                    */
-                            }
-                            {
-                                service?.sections?.map((s) => (
-                                    <div style={{ backgroundColor: '#f9f9f9', marginTop: 20, padding: 20 }}>
-                                        <div dangerouslySetInnerHTML={{ __html: s[0] }} className='service-content'></div>
-                                        {s[1]?.length && <CAccordion items={[{ title: readMore[locale], content: s[1] }]} />}
-                                    </div>
-                                ))
-                            }
+                    <div className='row m-5'>
+                        <div className='offset-lg-3 col-lg-6 service-content'>
+                        <div className='mb-3'> Petkar Çiftliği olarak 2013 yılında faaliyete geçmiş bulunmaktayız. Bölgesinde öncü damızlık yetiştiricisi olma hedefiyle yola çıkan Petkar çiftliği, bu hedefini gerçekleştirmek için gerekli olabilecek kapalı ağıl alanları( 3.000 m2), kuzu büyütme ünitesi, sılaj ve yem depoları, idari binalar, elektrik ve su arıtma sistemleri gibi küçükbaş hayvan yetiştiriciliği için Avrupa standartlarında ve eksiksiz bir donanıma sahiptir.</div>
+                        <div className='mb-3'> Kurulduğu günden itibaren edindiğimiz küçükbaş yetiştiriciliği deneyimi ve uzmanlığımız güvencesiyle 2021 yılında Fransa’dan ithal ettiğimiz safkan İle de France koyunları ile faaliyetlerimiz devam etmektedir. </div>
+                        <div className='mb-3'>İklim koşullarına kolay uyum sağlayabilmesinin yanında verim, adaptasyon ve bakım koşullarının kolaylığı nedeniyle Ülkemize ve bölgemize küçükbaş yetiştiriciliğinde büyük katkılar sağlayacağına inandığımız için İle de France ırkını tercih ettik. </div>
+                        <div className='mb-3'>Üstün etçi genetiğe sahip olan İle de France koyunlarımızın sürü adaptasyonunu tamamlamış olup, Yavru üretimi ve damızlık satışı faaliyetlerimiz başlamış bulunmaktadır.</div>
 
                         </div>
-                    }
-                    <div className='row'>
-                        <div dangerouslySetInnerHTML={{ __html: contents.length > 1 ? contents[1] : '' }} className='offset-lg-3 col-lg-6 service-content'></div>
                     </div>
-                    <CAccordion items={service?.accordionItems} />
-                    <div dangerouslySetInnerHTML={{ __html: contents.length > 2 ? contents.slice(2).join('') : '' }} className='offset-lg-3 col-lg-6 service-content'></div>
                 </div>
             </div>
 

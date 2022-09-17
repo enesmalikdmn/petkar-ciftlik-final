@@ -38,7 +38,7 @@ const navbarContent = {
     },
     'tr': {
         home: 'Ana Sayfa',
-        about: 'Hakkımızda',
+        about: 'benefits-of-choosing-u',
         benefits: 'Neden Biz?',
         services: 'Medikal Prosedürler & Hizmetler',
         helpingChildren: 'Dezavantajı Çocuklara Yardımcı Olmak',
@@ -95,8 +95,8 @@ const Navbar = ({services, cosmeticServices, abouts}) => {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <div className="container">
                                     <Link href="/">
-                                        <a onClick={toggleNavbar} className="navbar-brand">
-                                            <img src="/img/logo.png" alt="logo" />
+                                        <a onClick={toggleNavbar} className="navbar-logo">
+                                            <img className='logo-img' src="/img/logo.png" alt="logo" />
                                         </a>
                                     </Link>
 
@@ -119,15 +119,15 @@ const Navbar = ({services, cosmeticServices, abouts}) => {
                                             <li className="nav-item">
                                                 <Link href="/#" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">
-                                                        {navbarContent[locale].home}
+                                                        Anasayfa
                                                     </a>
                                                 </Link>
                                             </li>
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/#">
                                                     <a onClick={e => e.preventDefault()} className="nav-link">
-                                                        {navbarContent[locale].about}
+                                                        benefits-of-choosing-u
                                                     </a>
                                                 </Link>
 
@@ -145,17 +145,17 @@ const Navbar = ({services, cosmeticServices, abouts}) => {
                                                         ))
                                                     }
                                                 </ul>
-                                            </li>
+                                            </li> */}
 
                                             <li className="nav-item">
                                                 <Link href="/benefits-of-choosing-us" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">
-                                                        {navbarContent[locale].benefits}
+                                                        Hakkımızda
                                                         </a>
                                                 </Link>
                                             </li>
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/#">
                                                     <a onClick={e => e.preventDefault()} className="nav-link">
                                                         {navbarContent[locale].services}
@@ -221,25 +221,25 @@ const Navbar = ({services, cosmeticServices, abouts}) => {
                                                         {navbarContent[locale].successStory}
                                                         </a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
 
                                             
 
                                             
                                             <li className="nav-item">
 
-                                            <Link href="/#">
+                                            {/* <Link href="/#">
                                                     <a onClick={e => e.preventDefault()} className="nav-link">
                                                         {locale.toUpperCase()}
                                                     </a>
-                                                </Link>
-                                                <ul className="dropdown-menu">
+                                                </Link> */}
+                                                {/* <ul className="dropdown-menu">
                                                     {locales.map((lang) => (
                                                         <li key={lang} className="nav-item">
                                                             <a href={`/${lang}${router.asPath}`} className="nav-link">{lang.toUpperCase()}</a>
                                                         </li>
                                                     ))}
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                         </ul>
                                     </div>

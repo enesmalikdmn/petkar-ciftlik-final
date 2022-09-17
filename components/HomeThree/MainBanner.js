@@ -58,14 +58,14 @@ const MainBanner = () => {
                                             </div>
                                         </div>
                                         
-                                        <div className="col-lg-3">
+                                        {/* <div className="col-lg-3">
                                             <div
                                                 onClick={e => {e.preventDefault(); openModal()}}
                                                 className="video-btn popup-youtube"
                                             > 
                                                 <i className="flaticon-play-button-2"></i>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -93,14 +93,14 @@ const MainBanner = () => {
                                             </div>
                                         </div>
 
-                                        <div className="col-lg-3">
+                                        {/* <div className="col-lg-3">
                                             <div
                                                 onClick={e => {e.preventDefault(); openModal()}}
                                                 className="video-btn popup-youtube"
                                             > 
                                                 <i className="flaticon-play-button-2"></i>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -128,14 +128,14 @@ const MainBanner = () => {
                                             </div>
                                         </div>
 
-                                        <div className="col-lg-3">
+                                        {/* <div className="col-lg-3">
                                             <div
                                                 onClick={e => {e.preventDefault(); openModal()}}
                                                 className="video-btn popup-youtube"
                                             > 
                                                 <i className="flaticon-play-button-2"></i>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
