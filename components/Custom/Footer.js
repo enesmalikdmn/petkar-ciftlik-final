@@ -99,14 +99,14 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
                                             <a href={ContactInfo.phoneHref}>
                                                 <i className="bx bx-phone-call"></i>
                                                 <span>{ContactContent[locale].callUs}:</span>
-                                                tel no
+                                                +90 532 317 52 19
                                             </a>
                                         </li>
                                         <li>
                                             <a href={ContactInfo.emailHref}>
                                                 <i className="bx bx-envelope"></i>
                                                 <span>{ContactContent[locale].email}:</span>
-                                                info@petkariledefrance.com
+                                                petkarkoyun@gmail.com
                                             </a>
                                         </li>
                                         <li>

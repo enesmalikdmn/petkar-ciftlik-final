@@ -1,9 +1,9 @@
 const ContactInfo = {
-    phone: "+90 530 131 11 96",
+    phone: "+90 532 317 52 19",
     phoneHref: "tel:+905301311196",
-    email: "info@primehealthconcept.com",
-    emailHref: "mailto:info@primehealthconcept.com",
-    address: "Egemenlik mah. 6096 sok. No:4/31 Bornova/İzmir",
+    email: "petkarkoyun@gmail.com",
+    emailHref: "mailto:petkarkoyun@gmail.com",
+    address: "Işıklar köyü Rahmanlar mevkii küme evleri no:25 Tire/ İzmir",
   };
 
   export default ContactInfo;

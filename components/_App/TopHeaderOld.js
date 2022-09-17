@@ -28,13 +28,13 @@ const TopHeader = () => {
                             <li>
                                 <a href="tel:+822456974">
                                     <i className="bx bx-phone-call"></i>
-                                    {topHeaderContent[locale].callUs}: +90 530 131 11 96
+                                    {topHeaderContent[locale].callUs}: +90 532 317 52 19
                                 </a>
                             </li>
                             <li>
                                 <a href="mailto:hello@info.com">
                                     <i className="bx bxs-paper-plane"></i>
-                                    {topHeaderContent[locale].email}: info@primehealthconcept.com
+                                    {topHeaderContent[locale].email}: petkarkoyun@gmail.com
                                 </a>
                             </li>
                         </ul>
