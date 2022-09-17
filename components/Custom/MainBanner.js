@@ -60,8 +60,7 @@ const MainBanner = ({data}) => {
                                                 </div> */}
                                             </div>
                                         </div>
-                                        // TODO: video buraya gelebilir
-                                        {/* <div className="col-lg-3">
+                                        {/* <div className="col-lg-3">              TODO: video buraya gelebilir
                                             <div
                                                 onClick={e => {e.preventDefault(); openModal()}}
                                                 className="video-btn popup-youtube"
