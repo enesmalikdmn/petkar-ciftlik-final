@@ -20,7 +20,7 @@ const ContactInfo = () => {
 
 					<div className="col-lg-6 p-0">
 						<div className="single-contact-map">
-							<iframe src="https://maps.google.com/maps?q=38.428716,%2027.233641&t=k&z=17&ie=UTF8&iwloc=&output=embed"></iframe>
+							<iframe src="https://maps.google.com/maps?q=38.0993669,%2027.5438436&t=k&z=17&ie=UTF8&iwloc=&output=embed"></iframe>
 						</div>
 					</div>
 

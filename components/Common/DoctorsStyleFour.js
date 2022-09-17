@@ -22,7 +22,7 @@ const DoctorsStyleFour = () => {
 
 									<ul className="doctors-link">
 										<li>
-											<a href="https://www.facebook.com/" target="_blank">
+											<a href="https://www.facebook.com/people/Petkar-Koyunculuk/100076410344160//" target="_blank">
 												<i className="bx bxl-facebook"></i>
 											</a>
 										</li>
@@ -37,7 +37,7 @@ const DoctorsStyleFour = () => {
 											</a>
 										</li>
 										<li>
-											<a href="https://www.instagram.com/" target="_blank">
+											<a href="https://www.instagram.com/petkarkoyun/" target="_blank">
 												<i className="bx bxl-instagram"></i>
 											</a>
 										</li>
@@ -58,7 +58,7 @@ const DoctorsStyleFour = () => {
 
 									<ul className="doctors-link">
 										<li>
-											<a href="https://www.facebook.com/" target="_blank">
+											<a href="https://www.facebook.com/people/Petkar-Koyunculuk/100076410344160//" target="_blank">
 												<i className="bx bxl-facebook"></i>
 											</a>
 										</li>
@@ -73,7 +73,7 @@ const DoctorsStyleFour = () => {
 											</a>
 										</li>
 										<li>
-											<a href="https://www.instagram.com/" target="_blank">
+											<a href="https://www.instagram.com/petkarkoyun/" target="_blank">
 												<i className="bx bxl-instagram"></i>
 											</a>
 										</li>
@@ -94,7 +94,7 @@ const DoctorsStyleFour = () => {
 
 									<ul className="doctors-link">
 										<li>
-											<a href="https://www.facebook.com/" target="_blank">
+											<a href="https://www.facebook.com/people/Petkar-Koyunculuk/100076410344160//" target="_blank">
 												<i className="bx bxl-facebook"></i>
 											</a>
 										</li>
@@ -109,7 +109,7 @@ const DoctorsStyleFour = () => {
 											</a>
 										</li>
 										<li>
-											<a href="https://www.instagram.com/" target="_blank">
+											<a href="https://www.instagram.com/petkarkoyun/" target="_blank">
 												<i className="bx bxl-instagram"></i>
 											</a>
 										</li>

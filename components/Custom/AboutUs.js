@@ -46,7 +46,7 @@ const AboutUs = ({data}) => {
 						<div className="col-lg-6">
 							{/* <div className="social-area flex"> TODO: sosyal medya hesabı eklenecek
 								<div className='mr-5'>
-									<a href="https://www.facebook.com/" target="_blank">
+									<a href="https://www.facebook.com/people/Petkar-Koyunculuk/100076410344160//" target="_blank">
 										<i className="bx bxl-facebook"></i>
 									</a>
 								</div>
@@ -66,7 +66,7 @@ const AboutUs = ({data}) => {
 									</a>
 								</div>
 								<div>
-									<a href="https://www.instagram.com/" target="_blank">
+									<a href="https://www.instagram.com/petkarkoyun/" target="_blank">
 										<i className="bx bxl-instagram"></i>
 									</a>
 								</div>
