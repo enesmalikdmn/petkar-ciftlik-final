@@ -1,13 +1,13 @@
 version: '3'
 
 services:
-  primehealth-final:
+  petkar-ciftlik-final:
     restart: unless-stopped
     build: .
     labels:
-      - "traefik.http.routers.primehealth-final.rule=Host(`primehealthconcept.com`)"
-      - "traefik.http.routers.primehealth-final.tls=true"
-      - "traefik.http.routers.primehealth-final.tls.certresolver=eragnaLE"
+      - "traefik.http.routers.petkar-ciftlik-final.rule=Host(`petkariledefranceçiftliği.com`)"
+      - "traefik.http.routers.petkar-ciftlik-final.tls=true"
+      - "traefik.http.routers.petkar-ciftlik-final.tls.certresolver=eragnaLE"
 networks:
   default:
     external:
