@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
                     name="twitter:card" 
                     content="Petkar Ile De France Damızlık Çiftliği"
                 ></meta>
-                <link rel="canonical" href="https://petkarildefranceçiftliği.com"></link>
+                <link rel="canonical" href="https://xn--petkarildefranceiftlii-f7b36k.com"></link>
             </Head>
 
             {children}
