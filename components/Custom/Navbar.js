@@ -148,7 +148,7 @@ const Navbar = ({services, cosmeticServices, abouts}) => {
                                             </li> */}
 
                                             <li className="nav-item">
-                                                <Link href="/hakkimizda" activeClassName="active">
+                                                <Link href="/about-us" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">
                                                         Hakkımızda
                                                         </a>

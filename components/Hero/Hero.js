@@ -45,7 +45,7 @@ const MainBanner = ({data}) => {
 									<p>{r(data.content)}</p>
 
 									<div className="slider-btn">
-                                        <Link href="/hakkimizda">
+                                        <Link href="/about-us">
                                             <a className="default-btn">
                                                 Learn More
                                             </a>
