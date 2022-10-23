@@ -4,6 +4,7 @@ import PageBanner from '../components/Common/PageBanner';
 import ContactInfo from '../components/ContactUs/ContactInfo';
 import ContactForm from '../components/ContactUs/ContactForm';
 import { useRouter } from 'next/router';
+import SlugPageLayout from '../components/Custom/SlugPageLayout';
 
 import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/Custom/Footer';
@@ -25,29 +26,25 @@ const bannerContent = {
         activePage: 'İletişim'
     },
 }
-const Contact = ({abouts,services, cosmeticServices}) => {
+const AboutUs = ({abouts,services, cosmeticServices}) => {
     const { locale } = useRouter();
     return (
         <>
             <Navbar services={services} cosmeticServices={cosmeticServices} abouts={abouts}/>
 
             <PageBanner 
-                pageTitle={bannerContent[locale].pageTitle} 
+                pageTitle='Hakkımızda'
                 homePageUrl="/" 
-                homePageText={bannerContent[locale].homePage}  
+                homePageText='Anasayfa' 
                 imgUrl="/img/logo.png"
-                activePageText={bannerContent[locale].activePage} 
+                activePageText='Hakkımızda'
                 imgClass="bg-1" 
             />  
-            <ContactInfo />
+            <SlugPageLayout />
 
-            <ContactForm />
-
-            
-            
             <Footer /> 
         </>
     )
 }
 
-export default Contact;
+export default AboutUs;

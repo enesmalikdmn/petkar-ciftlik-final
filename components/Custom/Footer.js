@@ -164,7 +164,7 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
                                 </h3>
                                 <ul>
                                     <li>
-                                        <Link href="/benefits-of-choosing-us" activeClassName="active">
+                                        <Link href="/hakkimizda" activeClassName="active">
                                             <a>
                                                 {navbarContent[locale].benefits}
                                             </a>

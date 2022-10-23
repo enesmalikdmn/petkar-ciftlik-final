@@ -81,12 +81,12 @@ const MainBanner = ({data}) => {
             </div>
 
             {/* If you want to change the video need to update videoID */}
-            <ModalVideo 
+            {/* <ModalVideo 
                 channel='youtube' 
                 isOpen={!isOpen} 
                 videoId={data.videoID}
                 onClose={() => setIsOpen(!isOpen)} 
-            />
+            /> */}
         </>
     )
 }

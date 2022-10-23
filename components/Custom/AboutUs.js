@@ -120,12 +120,12 @@ const AboutUs = ({data}) => {
 					</div>
 				</div>
 			</div>
-			<ModalVideo
+			{/* <ModalVideo
 				channel='youtube'
 				isOpen={!isOpen}
 				videoId='bk7McNUjWgw'
 				onClose={() => setIsOpen(!isOpen)}
-			/>
+			/> */}
 		</>
 	)
 }

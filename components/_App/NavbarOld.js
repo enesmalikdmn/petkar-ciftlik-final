@@ -118,7 +118,7 @@ const Navbar = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/benefits-of-choosing-us" activeClassName="active">
+                                                <Link href="/hakkimizda" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">
                                                         {navbarContent[locale].benefits}
                                                         </a>

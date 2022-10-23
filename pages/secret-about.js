@@ -7,7 +7,6 @@ import Faqs from '../components/Common/Faqs';
 import ContactForm from '../components/ContactUs/ContactForm';
 import AccordionWithTitle from '../components/Custom/AccordionWithTitle';
 import r, {parseAccordion, removeTable} from '../utils/removeHTML'
-import { getPageWithName, getPostWithName, getServices } from '../lib/api';
 import { CAccordion } from '../components/Custom/AccordionWithTitle';
 import { parse } from 'node-html-parser';
 
@@ -52,18 +51,5 @@ const AboutUs = ({post, services, cosmeticServices, abouts}) => {
 export default AboutUs;
 
 
-
-export async function getServerSideProps({ locale }) {
-    const post = await getPostWithName("about-us")
-    const {servicesPage, services, cosmeticServicesPage, cosmeticServices, abouts} = await getServices(locale)
-    return {
-        props: {
-            abouts,
-            post: post,
-            services: services,
-            cosmeticServices: cosmeticServices
-        },
-    }
-}
 
 

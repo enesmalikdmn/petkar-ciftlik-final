@@ -149,7 +149,7 @@ const Footer = () => {
                                 <h3>{footerContent[locale].about}</h3>
                                 <ul>
                                     <li>
-                                        <a href="/benefits-of-choosing-us">
+                                        <a href="/hakkimizda">
                                             {footerContent[locale].benefits}
                                         </a>
                                     </li>

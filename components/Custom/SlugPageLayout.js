@@ -7,7 +7,6 @@ import Footer from './Footer';
 import { CAccordion } from './AccordionWithTitle';
 import { parse } from 'node-html-parser'
 import dynamic from 'next/dynamic';
-import { getPageWithNameLocale, getPostWithName, getService, getServices } from '../../lib/api';
 
 
 const readMore = {
@@ -17,21 +16,21 @@ const readMore = {
 }
 
 const SlugPageLayout = ({ service, abouts, services, cosmeticServices, locale }) => {
-    const contents = service?.content.split("__TABLE__");
-    const firstContent = contents.length > 0 ? contents[0] : ''
-    const firstContentText = parse(firstContent)
+    // const contents = service?.content.split("__TABLE__");
+    // const firstContent = contents.length > 0 ? contents[0] : ''
+    // const firstContentText = parse(firstContent)
     return (
         <>
-            <Navbar services={services} cosmeticServices={cosmeticServices} abouts={abouts} />
+            {/* <Navbar services={services} cosmeticServices={cosmeticServices} abouts={abouts} /> */}
 
-            <PageBanner
+            {/* <PageBanner
                 homePageUrl="/"
-                homePageText="Home"
+                homePageText="Anasayfa"
                 activePageText="Hakkımzıda"
                 imgUrl="/img/logo.png"
                 imgClass="bg-1"
                 postHeader="{service.postHeader}"
-            />
+            /> */}
 
             <div className="services-details-area">
                 <div className="container">
@@ -48,7 +47,7 @@ const SlugPageLayout = ({ service, abouts, services, cosmeticServices, locale })
             </div>
 
 
-            <Footer services={services} cosmeticServices={cosmeticServices} abouts={abouts} />
+            {/* <Footer services={services} cosmeticServices={cosmeticServices} abouts={abouts} /> */}
         </>
     )
 }

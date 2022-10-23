@@ -1,4 +1,3 @@
-import { getPageWithNameLocale, getPostWithName, getServices } from '../lib/api';
 import SlugPageLayout from '../components/Custom/SlugPageLayout';
 
 // const AboutUs = ({ service,abouts, services, cosmeticServices }) => {
@@ -42,18 +41,5 @@ export default SlugPageLayout;
 
 
 
-export async function getServerSideProps({ locale }) {
-    
-    const post = await getPageWithNameLocale("testimonials", locale)
-    const { servicesPage, services, abouts, cosmeticServicesPage, cosmeticServices } = await getServices(locale)
-    return {
-        props: {
-            service: post,
-            services: services,
-            cosmeticServices: cosmeticServices,
-            abouts: abouts
-        },
-    }
-}
 
 

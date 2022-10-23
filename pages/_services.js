@@ -6,7 +6,6 @@ import Footer from '../components/_App/Footer';
 import Link from 'next/link';
 import OurWorks from '../components/HomeOne/OurWorks';
 import WeCareAboutYou from '../components/Custom/WeCareAboutYour';
-import { getPageWithName, getServices } from '../lib/api';
 import r, { removeTable, parseTable } from '../utils/removeHTML'
 import { parse } from 'node-html-parser';
 const Services1 = ({abouts, bannerItems, services, weCare, cosmeticServices }) => {
@@ -113,49 +112,4 @@ const Services1 = ({abouts, bannerItems, services, weCare, cosmeticServices }) =
 export default Services1;
 
 
-
-export async function getServerSideProps({ locale }) {
-    const home = await getPageWithName('home', locale);
-    const weCareTable = parseTable('about_content', home.content)
-    const weCare = {
-        title: r(weCareTable[0][0]),
-        content: weCareTable[0][1],
-        callText: weCareTable[0][2],
-        mailText: weCareTable[0][3],
-    }
-
-    const {servicesPage, abouts, services, cosmeticServicesPage, cosmeticServices} = await getServices(locale)
-    const doc = parse(servicesPage.content);
-    const bannerItems = [
-        /* pardon my french */
-        {
-            title: doc.querySelectorAll(".wp-block-table.services_banner tr")[0].querySelectorAll("td")[0].innerHTML,
-            content: doc.querySelectorAll(".wp-block-table.services_banner tr")[1].querySelectorAll("td")[0].innerHTML,
-            icon: doc.querySelectorAll(".wp-block-table.services_banner tr")[2].querySelectorAll("td")[0].innerHTML,
-        },
-        {
-            title: doc.querySelectorAll(".wp-block-table.services_banner tr")[0].querySelectorAll("td")[1].innerHTML,
-            content: doc.querySelectorAll(".wp-block-table.services_banner tr")[1].querySelectorAll("td")[1].innerHTML,
-            icon: doc.querySelectorAll(".wp-block-table.services_banner tr")[2].querySelectorAll("td")[1].innerHTML,
-        },
-        {
-            title: doc.querySelectorAll(".wp-block-table.services_banner tr")[0].querySelectorAll("td")[2].innerHTML,
-            content: doc.querySelectorAll(".wp-block-table.services_banner tr")[1].querySelectorAll("td")[2].innerHTML,
-            icon: doc.querySelectorAll(".wp-block-table.services_banner tr")[2].querySelectorAll("td")[2].innerHTML,
-        }
-    ]
-    const image = servicesPage.featuredImage?.node?.sourceUrl
-    return {
-        props: {
-            title: servicesPage.title,
-            content: removeTable(servicesPage.content),
-            bannerItems,
-            services: services || [],
-            cosmeticServices: cosmeticServices || [],
-            image: image || null,
-            abouts: abouts,
-            weCare
-        },
-    }
-}
 

@@ -7,7 +7,6 @@ import Faqs from '../components/Common/Faqs';
 import ContactForm from '../components/ContactUs/ContactForm';
 import AccordionWithTitle from '../components/Custom/AccordionWithTitle';
 import r, { parseAccordion, removeTable } from '../utils/removeHTML'
-import { getPageWithName, getPostWithName, getServices } from '../lib/api';
 import { CAccordion } from '../components/Custom/AccordionWithTitle';
 import { parse } from 'node-html-parser';
 import SlugPageLayout from '../components/Custom/SlugPageLayout';
@@ -53,17 +52,5 @@ export default SlugPageLayout;
 
 
 
-export async function getServerSideProps({ locale }) {
-    const post = await getPageWithName("helping-disadvantaged-children")
-    const { servicesPage, services, abouts, cosmeticServicesPage, cosmeticServices } = await getServices(locale)
-    return {
-        props: {
-            service: post,
-            services: services,
-            cosmeticServices: cosmeticServices,
-            abouts: abouts
-        },
-    }
-}
 
 
