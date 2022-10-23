@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     build: .
     labels:
-      - "traefik.http.routers.petkar-ciftlik-final.rule=Host(`petkariledefranceçiftliği.com`)"
+      - "traefik.http.routers.petkar-ciftlik-final.rule=Host(`petkarildefranceçiftliği.com`)"
       - "traefik.http.routers.petkar-ciftlik-final.tls=true"
       - "traefik.http.routers.petkar-ciftlik-final.tls.certresolver=eragnaLE"
 networks:

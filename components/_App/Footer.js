@@ -195,13 +195,13 @@ const Footer = () => {
                                 <h3>{footerContent[locale].certificates}</h3>
                                 <ul>
                                     <li>
-                                        <a target="_blank" href="https://wp.petkariledefranceçiftliği.com/wp-content/uploads/2022/07/CamScanner-06-27-2022-11.19.pdf">
+                                        <a target="_blank" href="https://wp.petkarildefranceçiftliği.com/wp-content/uploads/2022/07/CamScanner-06-27-2022-11.19.pdf">
                                         {footerContent[locale].tourismCertificate}
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a target="_blank" href="https://petkariledefranceçiftliği.com/wp-content/uploads/2022/07/CamScanner-07-04-2022-19.55.pdf">
+                                        <a target="_blank" href="https://petkarildefranceçiftliği.com/wp-content/uploads/2022/07/CamScanner-07-04-2022-19.55.pdf">
                                         {footerContent[locale].travelAgency}
                                         </a>
                                     </li>
