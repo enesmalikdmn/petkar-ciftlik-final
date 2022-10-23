@@ -1,17 +1,27 @@
 const ContactContent = {
     'en': {
-        callUs: 'Call Us',
-        email: 'Email',
-        adress: 'Address',
-        contactUs: 'Contact Us',
-        dropMessage: 'Drop us a message for any query',
-        name: 'Name',
+        // callUs: 'Call Us',
+        // email: 'Email',
+        // adress: 'Address',
+        // contactUs: 'Contact Us',
+        // dropMessage: 'Drop us a message for any query',
+        // name: 'Name',
       
-        phone: 'Phone',
-        message: 'Message',
-        send: 'Send',
-        subject: 'Subject',
-
+        // phone: 'Phone',
+        // message: 'Message',
+        // send: 'Send',
+        // subject: 'Subject',
+        callUs: 'Bizi Arayın',
+        email: 'E-Posta',
+        adress: 'Adres',
+        contactUs: 'Bize Ulaşın',
+        dropMessage: 'Bütün sorularınız için bize mesaj gönderebilirsiniz.',
+        name: 'İsim',
+       
+        phone: 'Telefon',
+        message: 'Mesaj',
+        send: 'Gönder',
+        subject: 'Konu',
     },
     'de': {
         callUs: 'Rufen Sie uns an',
