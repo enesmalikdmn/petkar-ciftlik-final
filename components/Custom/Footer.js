@@ -115,11 +115,14 @@ const Footer = ({ abouts, services, cosmeticServices }) => {
                                     <h3>{navbarContent[locale].getInTouch}</h3>
                                     <ul>
                                         <li>
-                                            <a href={ContactInfo.phoneHref}>
-                                                <i className="bx bx-phone-call"></i>
-                                                <span>{ContactContent[locale].callUs}:</span>
-                                                +90 532 317 52 19
-                                            </a>
+                                        <a href={ContactInfo.phoneHref}>
+                                    <div className='header-phone-number flex flex-row gap-2'>
+                                        <div><i className="bx bx-phone-call"></i></div>
+                                        <div>{ContactContent[locale].callUs}:</div>
+                                        <div>{ContactInfo.phone}</div>
+                                        <div>{ContactInfo.secondPhone}</div> 
+                                    </div>
+                                </a>
                                         </li>
                                         <li>
                                             <a href={ContactInfo.emailHref}>

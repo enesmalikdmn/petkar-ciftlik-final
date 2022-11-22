@@ -28,7 +28,9 @@ const TopHeader = () => {
                             <li>
                                 <a href="tel:+822456974">
                                     <i className="bx bx-phone-call"></i>
-                                    {topHeaderContent[locale].callUs}: +90 532 317 52 19
+                                    {topHeaderContent[locale].callUs}:
+                                    <div>+90 532 317 52 19 </div>
+                                                <div>+90 553 388 53 31 </div>
                                 </a>
                             </li>
                             <li>

@@ -17,8 +17,12 @@ const TopHeader = () => {
                            
                             <li>
                                 <a href={ContactInfo.phoneHref}>
-                                    <i className="bx bx-phone-call"></i>
-                                    {ContactContent[locale].callUs}: {ContactInfo.phone}
+                                    <div className='header-phone-number flex flex-row gap-2'>
+                                        <div><i className="bx bx-phone-call"></i></div>
+                                        <div>{ContactContent[locale].callUs}:</div>
+                                        <div>{ContactInfo.phone}</div>
+                                        <div>{ContactInfo.secondPhone}</div> 
+                                    </div>
                                 </a>
                             </li>
                             <li>

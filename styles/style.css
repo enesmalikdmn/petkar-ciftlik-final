@@ -220,7 +220,9 @@ textarea.form-control {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
+.header-phone-number {
+  display: flex;
+}
 .top-title {
   font-size: 15px;
   color: #e11e25;
