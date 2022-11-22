@@ -16,14 +16,21 @@ const TopHeader = () => {
                         <ul className="header-content-left">
                            
                             <li>
-                                <a href={ContactInfo.phoneHref}>
                                     <div className='header-phone-number flex flex-row gap-2'>
                                         <div><i className="bx bx-phone-call"></i></div>
                                         <div>{ContactContent[locale].callUs}:</div>
-                                        <div>{ContactInfo.phone}</div>
-                                        <div>{ContactInfo.secondPhone}</div> 
+                                        <div>
+                                            <div>
+                                                <a href={ContactInfo.phoneHref}>
+                                                    <div>{ContactInfo.phone}</div>
+                                                </a>
+                                            </div>
+                                            <a href={ContactInfo.secondPhoneHref}>
+                                                <div>{ContactInfo.secondPhone}</div> 
+                                            </a>
+                                        </div>
                                     </div>
-                                </a>
+                                
                             </li>
                             <li>
                                 <a href={ContactInfo.mailHref}>
