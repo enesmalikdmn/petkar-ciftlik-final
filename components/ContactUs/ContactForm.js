@@ -35,7 +35,7 @@ const ContactForm = () => {
     const { register, handleSubmit, errors } = useForm();
 
     const handleChange = e => {
-        console.log('test')
+        console.log('test3')
         const { name, value } = e.target;
         setContact(prevState => ({ ...prevState, [name]: value }));
     }
@@ -64,7 +64,8 @@ const ContactForm = () => {
 
                 <div className="contact-wrap contact-pages mb-0">
                     <div className="contact-form">
-                        <form id="contactForm" onSubmit={handleSubmit(onSubmit)}>
+                        <form id="contactForm" action="https://formsubmit.co/petkarkoyun@gmail.com" method="POST">
+                            <input type="hidden" name="_next" value="https://www.petkariledefranceciftligi.com/tr/contact/" />
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="form-group">
